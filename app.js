@@ -24,7 +24,7 @@ app.use('/js',express.static(path.join(__dirname,"./js")));
 
 app.get("/", function (req,res){
     res.render("index",{
-        title: "Super zajecia",
+        title: "Super zajecia z Node.js",
         subTitle: functions.subTitle
     });
 })
